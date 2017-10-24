@@ -1,0 +1,5 @@
+<launch>
+	<include file="$(find agitr)/reverse.launch"></include>
+	<node pkg="point_to_point" type="point_to_point_node" name="move_to_goal" output="screen"></node>
+</launch>
+	
